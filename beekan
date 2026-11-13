@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Beekan Erena, Ed.D. (c), ALM | Higher Education, Instructional Design & Language Specialist</title>
+  <meta name="description" content="Portfolio of Beekan Erena — Higher Education Specialist, Instructional Designer, Curriculum Developer, Translator, Interpreter, and Digital Media Creator in Cambridge, MA.">
+  
+  <!-- Open Graph tags for rich previews when shared on LinkedIn & Facebook -->
+  <meta property="og:title" content="Beekan Erena | Higher Ed, Instructional Design & Language Specialist">
+  <meta property="og:description" content="8+ years at Harvard & higher education. Expertise in Administration, Instructional Design, AI, Curriculum Development, Translation, Editing & Interpretation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://beekanerena.github.io/BEEKANERENA/">
+  <meta property="og:image" content="https://beekanerena.github.io/BEEKANERENA/photo.png">
+
+  <link rel="stylesheet" href="https://niimarcus.github.io/ai-class/kit/portfolio.css">
+
+  <!-- Custom Magical Enhancements -->
+  <style>
+    :root {
+      --glow: rgba(255, 255, 255, 0.14);
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    /* Top Floating Quick-Nav & Social Bar */
+    .topbar {
+      position: fixed;
+      top: 16px;
+      right: 20px;
+      z-index: 999;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      background: rgba(15, 18, 25, 0.78);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    }
+    .topbar a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      padding: 6px 10px;
+      border-radius: 999px;
+      transition: all 0.25s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .topbar a:hover {
+      background: var(--accent, #3b82f6);
+      color: #fff;
+      transform: translateY(-2px);
+    }
+    .topbar .divider {
+      width: 1px;
+      height: 18px;
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Social Pill Row in Hero & Footer */
+    .social-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+      justify-content: center;
+    }
+    .social-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: inherit;
+      border: 1px solid currentColor;
+      opacity: 0.88;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .social-btn svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
+    .social-btn:hover {
+      opacity: 1;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    }
+    .social-btn.linkedin:hover { background: #0A66C2; color: #fff; border-color: #0A66C2; }
+    .social-btn.youtube:hover { background: #FF0000; color: #fff; border-color: #FF0000; }
+    .social-btn.facebook:hover { background: #1877F2; color: #fff; border-color: #1877F2; }
+    .social-btn.resume:hover { background: #10B981; color: #fff; border-color: #10B981; }
+
+    /* Interactive Card Polish */
+    .jcard, .proj, .b, .ref {
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease !important;
+    }
+    .jcard:hover, .b:hover, .ref:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12);
+    }
+    .proj:hover {
+      transform: translateY(-8px) scale(1.01);
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Services Banner Chips */
+    .service-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 24px 0 10px;
+    }
+    .service-pill {
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background: rgba(0, 0, 0, 0.06);
+      border: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+    /* Contact Grid in Footer */
+    .contact-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      justify-content: center;
+      margin: 24px 0;
+    }
+
+    @media (max-width: 768px) {
+      .topbar {
+        top: auto;
+        bottom: 14px;
+        right: 50%;
+        transform: translateX(50%);
+        width: max-content;
+        max-width: 94vw;
+        overflow-x: auto;
+      }
+      .topbar .hide-mobile {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body class="blueprint">
+
+  <!-- Floating Navigation & Social Bar -->
+  <nav class="topbar" aria-label="Quick Navigation">
+    <a href="#journey" class="hide-mobile">Journey</a>
+    <a href="#projects" class="hide-mobile">Work</a>
+    <a href="#bring" class="hide-mobile">Services</a>
+    <a href="#contact" class="hide-mobile">Contact</a>
+    <span class="divider hide-mobile"></span>
+    <!-- Replace URLs below with your exact social profile links -->
+    <a href="https://www.linkedin.com/in/beekan-erena" target="_blank" rel="noopener" title="LinkedIn">LinkedIn ↗</a>
+    <a href="https://www.youtube.com/@beekanerena" target="_blank" rel="noopener" title="YouTube">YouTube ↗</a>
+    <a href="https://www.facebook.com/beekan.erena" target="_blank" rel="noopener" title="Facebook">Facebook ↗</a>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero" id="top">
+    <div class="giant">BEEKAN</div>
+    <div class="photo">
+      <img src="photo.png" alt="Beekan Erena portrait" onerror="this.parentElement.innerHTML='<div class=initials>BE</div>'">
+    </div>
+    <div class="chip c1"><b>8+</b><span>YEARS IN HIGHER ED</span></div>
+    <div class="chip c2"><b>3.94</b><span>GRADUATE GPA</span></div>
+    <div class="chip c3">
+      <ul>
+        <li>Higher Ed Administration</li>
+        <li>Instructional &amp; Curriculum Design</li>
+        <li>AI &amp; Digital Media Production</li>
+        <li>Translation, Editing &amp; Interpretation</li>
+        <li>Faculty &amp; Event Logistics</li>
+      </ul>
+    </div>
+    <div class="state">
+      <h1>HIGHER ED, AI &amp; MEDIA<br><em style="font-style:normal;color:var(--accent)">SPECIALIST.</em></h1>
+    </div>
+    <div class="ctas">
+      <a class="pill" href="mailto:beekanguluma@gmail.com">Email Me</a>
+      <a class="pill dim" href="#bring">My Services</a>
+      <a class="pill dim" href="#journey">My Story</a>
+    </div>
+  </header>
+
+  <!-- SCROLLING MARQUEE -->
+  <div class="marq">
+    <div class="track" id="mtrack">
+      <span class="mtxt">
+        Higher Education Administration <em>✦</em> Instructional Design <em>✦</em> Curriculum Development <em>✦</em> AI &amp; Digital Media <em>✦</em> Professional Translator <em>✦</em> Academic Editor <em>✦</em> Certified Interpreter <em>✦</em> Salesforce &amp; LMS Admin <em>✦</em>&nbsp;
+      </span>
+    </div>
+  </div>
+
+  <!-- ACADEMIC & PROFESSIONAL JOURNEY -->
+  <main>
+    <section id="journey" class="reveal">
+      <span class="badge">ACADEMIC &amp; CAREER JOURNEY</span>
+      <h2 class="big">About Me <span class="ghost">(&amp;)</span><br>My Journey</h2>
+      <p class="lede">Bridging 8+ years of Harvard administrative leadership and multilingual scholarship with AI-enhanced instructional design, curriculum development, and digital media storytelling.</p>
+
+      <div class="journey">
+        <!-- Education -->
+        <div class="jcard reveal">
+          <div class="yr">'26</div>
+          <h3>Ed.D. (Candidate), Liberty University</h3>
+          <p>Instructional Design &amp; Technology – Artificial Intelligence. Focusing on AI-enabled multimedia learning and heritage language retention.</p>
+        </div>
+        <div class="jcard reveal">
+          <div class="yr">'26</div>
+          <h3>ALM, Harvard University</h3>
+          <p>Master of Liberal Arts in Digital Media Design. Specialized in interactive media, visual storytelling, and instructional production.</p>
+        </div>
+        <div class="jcard reveal">
+          <div class="yr">'25</div>
+          <h3>Graduate Certificate, Harvard Extension School</h3>
+          <p>Front-End Web Development — HTML5, CSS3, JavaScript, responsive UI/UX, and accessible web architecture.</p>
+        </div>
+        <div class="jcard reveal">
+          <div class="yr">'25</div>
+          <h3>Graduate Certificate, Harvard Extension School</h3>
+          <p>Learning Design and Technology — Universal Design for Learning (UDL), ADDIE, and multimedia pedagogy.</p>
+        </div>
+        <div class="jcard reveal">
+          <div class="yr">'21</div>
+          <h3>Google IT Support Professional Certificate</h3>
+          <p>Enterprise systems administration, technical troubleshooting, networking, and IT infrastructure security.</p>
+        </div>
+        <div class="jcard reveal">
+          <div class="yr">'16</div>
+          <h3>PhD Coursework &amp; M.Ed., Addis Ababa University</h3>
+          <p>Doctoral coursework in Documentary Linguistics &amp; Culture; Master of Education (M.Ed.) and Postgraduate Higher Diploma.</p>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="jcard reveal">
+          <div class="yr">'19–'26</div>
+          <h3>Pathways Assistant, Harvard Graduate School of Education</h3>
+          <p>Led digital case management, onboarding compliance, student data analytics, and cross-departmental workflow automation for 7 years.</p>
+        </div>
+        <div class="jcard reveal">
+          <div class="yr">'17–'19</div>
+          <h3>Staff Assistant III, Harvard Graduate School of Education</h3>
+          <p>Managed Career Services operations, employer recruitment logistics, and communications using Salesforce, Marketing Cloud, and Trumba.</p>
+        </div>
+        <div class="jcard reveal">
+          <div class="yr">'17–'22</div>
+          <h3>Language Testing Evaluator, ALTA Language Services</h3>
+          <p>Assessed bilingual proficiency, conducted standardized linguistic evaluations, and upheld rigorous translation and interpretation standards.</p>
+        </div>
+        <div class="jcard reveal">
+          <div class="yr">'18</div>
+          <h3>Native Speaker Consultant, Harvard Department of Linguistics</h3>
+          <p>Collaborated with faculty and graduate researchers on phonological, morphological, and syntactic analysis for advanced linguistics courses.</p>
+        </div>
+        <div class="jcard reveal">
+          <div class="yr">'16–'17</div>
+          <h3>Adjunct Lecturer, UMass Boston</h3>
+          <p>Designed curriculum and taught engaging online and hybrid courses within the McCormack Graduate School using Blackboard LMS.</p>
+        </div>
+        <div class="jcard reveal">
+          <div class="yr">'15–'16</div>
+          <h3>Visiting Scholar &amp; Oromo Instructor, Harvard University</h3>
+          <p>Scholar at Risk Fellow at the Hutchins Center for African &amp; African American Research; designed curriculum and taught intensive Oromo courses.</p>
+        </div>
+      </div><!--end journey-->
+    </section>
+  </main>
+
+  <!-- SELECTED WORK & PROJECTS -->
+  <section class="dark" id="projects">
+    <div class="wrap reveal">
+      <span class="badge" style="border-color:#fff;color:#fff">SELECTED WORK &amp; INITIATIVES</span>
+      <h2 class="big">Made to <span class="ghost">Perform</span></h2>
+      <p class="lede" style="color:rgba(255,255,255,.75)">Delivering measurable impact across university administration, digital learning ecosystems, and multilingual publishing.</p>
+
+      <div class="projwrap" id="projwrap">
+        <div class="proj" style="background:linear-gradient(160deg,#2C4A3B,#101E17)">
+          <div class="top"><span class="n">01</span><div class="tags"><span>Harvard HGSE</span><span>Digital Systems</span></div></div>
+          <div class="mid"><b>01</b></div>
+          <h3>Digital Case Management &amp; Compliance</h3>
+          <p>Spearheaded digital case tracking, student onboarding compliance, and data reporting systems at Harvard Graduate School of Education.</p>
+          <p class="res">Streamlined operations across 7+ academic cycles</p>
+          <span class="go">↗</span>
+        </div>
+
+        <div class="proj" style="background:linear-gradient(160deg,#1E3A5F,#0D1B2A)">
+          <div class="top"><span class="n">02</span><div class="tags"><span>EdTech &amp; AI</span><span>Curriculum</span></div></div>
+          <div class="mid"><b>02</b></div>
+          <h3>OROSITY &amp; Bilingual AI Media</h3>
+          <p>Developed bilingual learning curricula and authored children's educational books (including "OKA – Oromo Kids and AI") blending storytelling with AI literacy.</p>
+          <p class="res">Pioneered accessible heritage-language digital media</p>
+          <span class="go">↗</span>
+        </div>
+
+        <div class="proj" style="background:linear-gradient(160deg,#33305C,#14121F)">
+          <div class="top"><span class="n">03</span><div class="tags"><span>Instructional Design</span><span>LMS</span></div></div>
+          <div class="mid"><b>03</b></div>
+          <h3>Higher Ed Course &amp; Curriculum Design</h3>
+          <p>Architected interactive syllabi, multimedia learning modules, and assessments at UMass Boston and Harvard using Canvas and Blackboard LMS.</p>
+          <p class="res">Applied ADDIE, UDL &amp; Cognitive Multimedia Theory</p>
+          <span class="go">↗</span>
+        </div>
+
+        <div class="proj" style="background:linear-gradient(160deg,#59372A,#1D110C)">
+          <div class="top"><span class="n">04</span><div class="tags"><span>CRM &amp; Analytics</span><span>Salesforce</span></div></div>
+          <div class="mid"><b>04</b></div>
+          <h3>Enterprise Information Management</h3>
+          <p>Administered Salesforce CRM, Marketing Cloud campaigns, and Trumba event calendars to coordinate complex faculty and student initiatives.</p>
+          <p class="res">Elevated data accuracy and stakeholder engagement</p>
+          <span class="go">↗</span>
+        </div>
+
+        <div class="proj" style="background:linear-gradient(160deg,#4A2545,#1A0B18)">
+          <div class="top"><span class="n">05</span><div class="tags"><span>Linguistics</span><span>Publishing</span></div></div>
+          <div class="mid"><b>05</b></div>
+          <h3>Translation, Editing &amp; Interpretation</h3>
+          <p>Delivered high-stakes English–Afaan Oromo translation, academic manuscript editing, language proficiency evaluation, and community interpretation.</p>
+          <p class="res">Trusted by universities, schools &amp; literary authors</p>
+          <span class="go">↗</span>
+        </div>
+
+        <div class="proj" style="background:linear-gradient(160deg,#2E4057,#111822)">
+          <div class="top"><span class="n">06</span><div class="tags"><span>Adobe Creative Cloud</span><span>Video</span></div></div>
+          <div class="mid"><b>06</b></div>
+          <h3>Educational Video &amp; Visual Production</h3>
+          <p>Produced instructional videos, book covers, and cultural documentaries using Adobe Premiere Pro, motion graphics, and synchronized narration.</p>
+          <p class="res">End-to-end digital media production</p>
+          <span class="go">↗</span>
+        </div>
+      </div><!--end projwrap-->
+    </div><!--end wrap-->
+  </section>
+
+  <!-- WHAT I BRING & PROFESSIONAL SERVICES -->
+  <main>
+    <section id="bring" class="reveal">
+      <span class="badge">EXPERTISE &amp; SERVICES</span>
+      <h2 class="big">What I <span class="ghost">Bring</span></h2>
+      <p class="lede">Available for university staff/faculty appointments, instructional design roles, and specialized consulting in curriculum development, translation, editing, and interpretation.</p>
+
+      <div class="service-pills">
+        <span class="service-pill">✦ Higher Ed Administration</span>
+        <span class="service-pill">✦ Instructional Designer</span>
+        <span class="service-pill">✦ Curriculum Developer</span>
+        <span class="service-pill">✦ Certified Translator</span>
+        <span class="service-pill">✦ Professional Editor</span>
+        <span class="service-pill">✦ Bilingual Interpreter</span>
+        <span class="service-pill">✦ Digital Media Producer</span>
+      </div>
+
+      <div class="bring">
+        <div class="b">
+          <div class="ic">✦</div>
+          <h3>Administrative Excellence</h3>
+          <ul>
+            <li>Faculty &amp; Executive Support</li>
+            <li>Academic Event &amp; Calendar Logistics</li>
+            <li>Onboarding &amp; Regulatory Compliance</li>
+            <li>Cross-Departmental Case Management</li>
+          </ul>
+        </div>
+
+        <div class="b">
+          <div class="ic">✦</div>
+          <h3>Instructional &amp; Curriculum Design</h3>
+          <ul>
+            <li>End-to-End Curriculum Development</li>
+            <li>ADDIE, UDL &amp; Story Design Models</li>
+            <li>Canvas &amp; Blackboard LMS Architecture</li>
+            <li>Interactive E-Learning &amp; Assessment</li>
+          </ul>
+        </div>
+
+        <div class="b">
+          <div class="ic">✦</div>
+          <h3>Translation, Editing &amp; Interpretation</h3>
+          <ul>
+            <li>English &harr; Afaan Oromo Translation</li>
+            <li>Academic, Literary &amp; Technical Editing</li>
+            <li>Simultaneous &amp; Consecutive Interpreting</li>
+            <li>Bicultural Localization &amp; Language Testing</li>
+          </ul>
+        </div>
+
+        <div class="b">
+          <div class="ic">✦</div>
+          <h3>Technology, CRM &amp; AI</h3>
+          <ul>
+            <li>Salesforce &amp; Marketing Cloud Admin</li>
+            <li>AI Prompt Engineering &amp; EdTech Workflows</li>
+            <li>Front-End Web Development (HTML/CSS/JS)</li>
+            <li>Data Visualization &amp; Departmental Reporting</li>
+          </ul>
+        </div>
+
+        <div class="b">
+          <div class="ic">✦</div>
+          <h3>Digital Media &amp; Publishing</h3>
+          <ul>
+            <li>Video Editing (Adobe Premiere Pro)</li>
+            <li>Bilingual Children's Book Authorship</li>
+            <li>Publication Layout &amp; Graphic Design</li>
+            <li>Educational Audio/Visual Storytelling</li>
+          </ul>
+        </div>
+
+        <div class="b">
+          <div class="ic">✦</div>
+          <h3>Teaching &amp; Research</h3>
+          <ul>
+            <li>University-Level Language Instruction</li>
+            <li>Documentary &amp; Applied Linguistics</li>
+            <li>Student Advising &amp; Mentorship</li>
+            <li>Intergenerational Literacy Research</li>
+          </ul>
+        </div>
+      </div><!--end bring-->
+    </section>
+
+    <!-- REFERENCES -->
+    <section id="refs" class="reveal">
+      <span class="badge">ENDORSEMENTS &amp; REFERENCES</span>
+      <h2 class="big">People I&rsquo;ve <span class="ghost">Worked With</span></h2>
+      <div class="refs">
+        <div class="ref">
+          <h3>Harvard University &amp; HGSE Leadership</h3>
+          <p>Supervisors and faculty colleagues across Harvard Graduate School of Education, the Hutchins Center, and the Department of Linguistics.</p>
+          <p class="rc">Direct contact details provided upon request</p>
+        </div>
+        <div class="ref">
+          <h3>Academic &amp; Community Partners</h3>
+          <p>Collaborators from UMass Boston, ALTA Language Services, and Cambridge educational institutions.</p>
+          <p class="rc">Portfolio &amp; letters available upon request</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="reveal">
+      <span class="badge">QUICK ANSWERS</span>
+      <h2 class="big">You&rsquo;d Ask <span class="ghost">Anyway</span></h2>
+      <div class="faq">
+        <details>
+          <summary>What full-time roles are you seeking?</summary>
+          <div class="bd">I am targeting Higher Education Administration (Program Coordinator, Faculty/Staff Assistant, Department Coordinator), Instructional Designer, Learning Technologist, and Digital Media Specialist roles in the Greater Boston/Cambridge area or hybrid/remote.</div>
+        </details>
+        <details>
+          <summary>Are you available for freelance Translation, Editing, or Interpretation?</summary>
+          <div class="bd">Yes! I regularly provide professional English–Afaan Oromo translation, academic and book manuscript editing, linguistic evaluation, and live interpretation for schools, hospitals, legal/community organizations, and publishers.</div>
+        </details>
+        <details>
+          <summary>Do you consult on Curriculum Development and Instructional Design?</summary>
+          <div class="bd">Absolutely. Combining my Harvard ALM in Digital Media Design, Graduate Certificates in Learning Design &amp; Web Development, and doctoral work in Instructional Design &amp; AI, I build custom courses, bilingual curricula, and multimedia learning assets.</div>
+        </details>
+        <details>
+          <summary>What languages do you speak and work in?</summary>
+          <div class="bd">I have native/bilingual fluency in Afaan Oromo and English, with deep scholarly training in Documentary Linguistics and Amharic familiarity.</div>
+        </details>
+        <details>
+          <summary>Where are you based and when can you start?</summary>
+          <div class="bd">I am based in Cambridge, Massachusetts (right near Harvard Square) and am available immediately for both institutional roles and consulting projects.</div>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER & CONTACT -->
+  <footer id="contact">
+    <div class="inner reveal">
+      <span class="badge">GET IN TOUCH</span>
+      <h2>LET&rsquo;S<br>CONNECT</h2>
+      <p style="max-width:540px;margin:12px auto 24px;opacity:.8">
+        Whether you are hiring at a university, seeking an instructional designer, or need a trusted translator, editor, or interpreter—I would love to hear from you.
+      </p>
+
+      <div class="mailrow">
+        <a class="pill" href="mailto:beekanguluma@gmail.com">✉ beekanguluma@gmail.com</a>
+        <!-- Optional: Replace with your phone number if you want a click-to-call button -->
+        <a class="pill dim" href="tel:+16170000000">📍 Cambridge, MA</a>
+      </div>
+
+      <!-- Social Media Links with crisp SVG Icons -->
+      <div class="social-row">
+        <a class="social-btn linkedin" href="https://www.linkedin.com/in/beekan-erena" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+          LinkedIn
+        </a>
+
+        <a class="social-btn youtube" href="https://www.youtube.com/@beekanerena" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
+          YouTube
+        </a>
+
+        <a class="social-btn facebook" href="https://www.facebook.com/beekan.erena" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/></svg>
+          Facebook
+        </a>
+
+        <!-- Optional: Upload your PDF resume as Beekan_Erena_Resume.pdf to your GitHub repo -->
+        <a class="social-btn resume" href="Beekan_Erena_Resume.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6m4 18H6V4h7v5h5v11m-6-2l-4-4h2.5v-3h3v3H16l-4 4z"/></svg>
+          Download CV (PDF)
+        </a>
+      </div>
+
+      <div class="fine">
+        <span>&copy; 2026 Beekan Erena &middot; Cambridge, MA</span>
+        <span>Higher Education &middot; Instructional Design &middot; Translation &amp; Media</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://niimarcus.github.io/ai-class/kit/portfolio.js"></script>
+</body>
+</html>
